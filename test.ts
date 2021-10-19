@@ -1,2 +1,2 @@
-import { Authorize } from './index';
-Authorize;
+import { User } from './index';
+User;//.oauth_userinfo();
