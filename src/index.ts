@@ -3,6 +3,8 @@
 export * as Authorize from './libs/Authorize';
 export * as User from './libs/User';
 // import { ajax } from './utils/ajax';
+// const TiktokOpenAPI = { Authorize, User };
+// export default TiktokOpenAPI;
 
 // type Constructor<T = Record<string, unknown>> = new (...args: unknown[]) => T;
 // function TimesTamped<TBase extends Constructor>(Base: TBase) {

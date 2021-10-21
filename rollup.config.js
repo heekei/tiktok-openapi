@@ -32,8 +32,8 @@ export default {
         },
     ],
     plugins: [
-        typescript(),
+        resolve(),
         commonjs(),
-        resolve()
+        typescript(),
     ]
 };
