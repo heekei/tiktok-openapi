@@ -76,9 +76,7 @@ interface AccesstokenData extends Data {
     scope: string;
 }
 
-export interface AccesstokenResult extends Result {
-    data: AccesstokenData;
-}
+export type AccesstokenResult = Result<AccesstokenData>
 
 
 export interface RenewRefreshTokenParams {
@@ -99,9 +97,8 @@ interface RenewRefreshTokenData extends Data {
     expires_in: string,
     refresh_token: string;
 }
-export interface RenewRefreshTokenResult extends Result {
-    data: RenewRefreshTokenData;
-}
+
+export type RenewRefreshTokenResult = Result<RenewRefreshTokenData>
 
 export interface ClientTokenParams {
     /**
@@ -128,9 +125,8 @@ interface ClientTokenData extends Data {
     access_token: string,
     expires_in: string;
 }
-export interface ClientTokenResult extends Result {
-    data: ClientTokenData;
-}
+
+export type ClientTokenResult = Result<ClientTokenData>
 
 export interface RefreshTokenParams {
     /**
@@ -162,9 +158,7 @@ interface RefreshTokenData extends Data {
     scope: string;
 }
 
-export interface RefreshTokenResult extends Result {
-    data: RefreshTokenData;
-}
+export type RefreshTokenResult = Result<RefreshTokenData>
 
 export interface AuthorizeV2Params {
     /**

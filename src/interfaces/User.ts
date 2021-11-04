@@ -56,9 +56,8 @@ export interface UserinfoParams {
 }
 
 export interface UserinfoData extends Data, UserData { }
-export interface UserinfoResult extends Result {
-    data: UserinfoData;
-}
+
+export type UserinfoResult = Result<UserinfoData>
 
 
 export interface FansListParams extends PageQueryParam, UserinfoParams { }

@@ -45,8 +45,8 @@ export interface Data {
 
 
 
-export interface Result {
-    data: Data;
+export interface Result<T = Data> {
+    data: T;
     extra: Extra;
     message?: string;
 }
