@@ -6,6 +6,10 @@
   "module": "lib/tiktok-openapi.esm.js",
   "browser": "lib/tiktok-openapi.browser.js",
   "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heekei/tiktok-openapi.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "build:types": "tsc",
