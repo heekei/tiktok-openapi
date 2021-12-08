@@ -2,9 +2,9 @@
   "name": "tiktok-openapi",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/bundle.cjs.js",
-  "module": "lib/bundle.esm.js",
-  "browser": "lib/bundle.browser.js",
+  "main": "lib/tiktok-openapi.cjs.js",
+  "module": "lib/tiktok-openapi.esm.js",
+  "browser": "lib/tiktok-openapi.browser.js",
   "types": "types/index.d.ts",
   "scripts": {
     "build": "rollup -c",
