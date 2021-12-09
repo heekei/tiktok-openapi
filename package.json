@@ -1,7 +1,12 @@
 {
   "name": "tiktok-openapi",
-  "version": "1.0.1",
-  "keywords": ["tiktok","openapi","api","unofficial"],
+  "version": "1.0.2",
+  "keywords": [
+    "tiktok",
+    "openapi",
+    "api",
+    "unofficial"
+  ],
   "description": "Implements of tiktok openapi in Typescript.",
   "main": "lib/tiktok-openapi.cjs.js",
   "module": "lib/tiktok-openapi.esm.js",
