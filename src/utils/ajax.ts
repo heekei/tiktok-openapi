@@ -2,10 +2,8 @@ import axios from 'axios';
 import { Result } from '../interfaces/Common';
 import { OAUTH_API_HOST } from '../libs/Common';
 
-const instance = axios.create({});
+const instance = axios.create({ baseURL: OAUTH_API_HOST });
 instance.interceptors.request.use((config) => {
-    config.baseURL = OAUTH_API_HOST;
-    // config.headers
     return config;
 });
 instance.interceptors.response.use((value) => {
